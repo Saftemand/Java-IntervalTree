@@ -17,7 +17,7 @@ public class IntervalTree {
     }
 
     public int FindPom(){
-        return Integer.MIN_VALUE;
+        return tree.root.pom.key;
     }
 
 }

@@ -266,9 +266,11 @@ public class RedBlackEndpointTree {
 
     class RedBlackNode{
 
-        private RedBlackNode parent, left, right, pom;
+        protected RedBlackNode pom;
+        protected int key;
+
+        private RedBlackNode parent, left, right;
         private boolean isRed;
-        private int key;
         private int value;
         private int sumOfSubtree;
         private int maxInSubtree;

@@ -31,7 +31,7 @@ public class Main {
         tree.IntervalInsert(22,25);
         tree.IntervalInsert(27,30);
 
-        test = "";
+        System.out.println("args = [" + args + "]");
     }
 
 
