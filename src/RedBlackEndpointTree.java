@@ -399,6 +399,5 @@ public class RedBlackEndpointTree {
             return Direction.MIDDLE;
         }
     }
-
 }
 

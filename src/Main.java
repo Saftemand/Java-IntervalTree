@@ -32,6 +32,14 @@ public class Main {
         tree.IntervalInsert(27,30);
 
         System.out.println("Pom is: " + tree.FindPom());
+
+        tree = new IntervalTree();
+        tree.IntervalInsert(2,6);
+        tree.IntervalInsert(4,8);
+        tree.IntervalInsert(8,14);
+        tree.IntervalInsert(10,12);
+
+        System.out.println("Pom is: " + tree.FindPom());
     }
 
 
